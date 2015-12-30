@@ -3,6 +3,9 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+::-webkit-input-placeholder, :-moz-placeholder,::-moz-placeholder,:-ms-input-placeholder {
+    text-align: center;
+}
 body {
   background: #f5f7fa; }
 
@@ -22,8 +25,9 @@ body, input, textarea, select {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   color: #52575c;
+  text-align: center;
   line-height: 1.75em;
-  font-size: 15pt; }
+  font-size: 15pt;}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
