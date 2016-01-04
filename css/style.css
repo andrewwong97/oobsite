@@ -234,7 +234,7 @@ form label {
   margin: 0 0 0.5em 0; }
 
 
-form input[type="email"],
+
 form input[type="password"],
 form select,
 form textarea {
@@ -251,10 +251,9 @@ form textarea {
   -o-transition: background-color 0.25s ease-in-out;
   -ms-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out; }
-form input[type="text"] {
-  margin-left: .5em;
-  margin-right:.5em;
-  margin-bottom: 1em;
+
+form input[type="text"],form input[type="email"] {
+  margin: .5em auto;
   -webkit-appearance: none;
   display: inline-block;
   background: #f9fbfe;
